@@ -3,11 +3,11 @@ module.exports = {
     type: 'splash',
     path: 'ios/splash/',
     definitions: [{
-            name: "Default-568h@2x~iphone.png",
-            width: 640,
-            height: 1136,
-            comment: ''
-        }, // iPhone 5 Retina
+        name: "Default-568h@2x~iphone.png",
+        width: 640,
+        height: 1136,
+        comment: ''
+    }, // iPhone 5 Retina
         {
             name: "Default-667h.png",
             width: 750,
@@ -69,10 +69,16 @@ module.exports = {
             comment: ''
         }, // iPhone Retina
         {
-            name: "Default~iphone.png",
-            width: 320,
-            height: 480,
+            name: "Default-2436h.png",
+            width: 1125,
+            height: 2436,
             comment: ''
-        } // iPhone
+        }, // iPhone X
+        {
+            name: "Default-Landscape-2436h.png",
+            width: 2436,
+            height: 1125,
+            comment: ''
+        }, // iPhone XS
     ]
 };
